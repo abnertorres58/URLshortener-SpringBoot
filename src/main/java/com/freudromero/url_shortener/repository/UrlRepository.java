@@ -10,4 +10,6 @@ public interface UrlRepository extends JpaRepository<Url, Integer> {
 
     //TO DO
     // Implement method to avoid duplication in the database
+    // ALTER TABLE url
+    //  add CONSTRAINT original_url UNIQUE (original_url, short_url);
 }
